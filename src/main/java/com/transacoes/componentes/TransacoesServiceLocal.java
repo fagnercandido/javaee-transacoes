@@ -7,4 +7,7 @@ public interface TransacoesServiceLocal {
 
 	void teste();
 
+	void edicao() throws MyException;
+
+	void pegaPessoaNovamente() throws MyException;
 }
